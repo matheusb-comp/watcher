@@ -1,0 +1,86 @@
+hash: baa031c48c6fe5d11ce5716837c7dba243fde8db8cdfbd7a60b544f27e2c9f10
+updated: 2018-06-26T21:19:35.290126014-03:00
+imports:
+- name: github.com/agl/ed25519
+  version: 278e1ec8e8a6e017cd07577924d6766039146ced
+  repo: https://github.com/agl/ed25519
+  subpackages:
+  - edwards25519
+- name: github.com/davecgh/go-spew
+  version: 5215b55f46b2b919f50a1df0eaa5886afe4e3b3d
+  repo: https://github.com/davecgh/go-spew
+  subpackages:
+  - spew
+- name: github.com/go-errors/errors
+  version: a41850380601eeb43f4350f7d17c6bbd8944aaf8
+  repo: https://github.com/go-errors/errors
+- name: github.com/jtacoma/uritemplates
+  version: 307ae868f90f4ee1b73ebe4596e0394237dacce8
+- name: github.com/lib/pq
+  version: 50761b0867bd1d9d069276790bcd4a3bccf2324a
+  subpackages:
+  - oid
+- name: github.com/manucorporat/sse
+  version: ee05b128a739a0fb76c7ebd3ae4810c1de808d6d
+  repo: https://github.com/manucorporat/sse
+- name: github.com/matheusb-comp/go
+  version: 0116b20646dd7ad18fea4597835b14e178349746
+  subpackages:
+  - pool/getvoters
+- name: github.com/nullstyle/go-xdr
+  version: a875e7c9fa2388ce03279f6b5ba1c2ccd1f9e917
+  repo: https://github.com/nullstyle/go-xdr
+  subpackages:
+  - xdr3
+- name: github.com/pkg/errors
+  version: 645ef00459ed84a119197bfb8d8205042c6df63d
+  repo: https://github.com/pkg/errors
+- name: github.com/pmezard/go-difflib
+  version: 792786c7400a136282c1664665ae0a8db921c6c2
+  repo: https://github.com/pmezard/go-difflib
+  subpackages:
+  - difflib
+- name: github.com/segmentio/go-loggly
+  version: eb91657e62b25699dd4e84d5562735440d4beace
+  repo: https://github.com/segmentio/go-loggly
+- name: github.com/sirupsen/logrus
+  version: 68cec9f21fbf3ea8d8f98c044bc6ce05f17b267a
+  repo: https://github.com/sirupsen/logrus
+  subpackages:
+  - hooks/test
+- name: github.com/stellar/go
+  version: 9305f617ab3896931f81362a8679207d9d97721d
+  subpackages:
+  - amount
+  - build
+  - clients/horizon
+  - crc16
+  - hash
+  - keypair
+  - network
+  - price
+  - protocols/horizon
+  - protocols/horizon/base
+  - strkey
+  - support/errors
+  - support/http/mutil
+  - support/log
+  - support/render/hal
+  - support/render/problem
+  - support/url
+  - xdr
+- name: github.com/stretchr/objx
+  version: 1a9d0bb9f541897e62256577b352fdbc1fb4fd94
+  repo: https://github.com/stretchr/objx
+- name: github.com/stretchr/testify
+  version: 976c720a22c8eb4eb6a0b4348ad85ad12491a506
+  repo: https://github.com/stretchr/testify
+  subpackages:
+  - assert
+  - mock
+  - require
+- name: golang.org/x/sys
+  version: c4afb3effaa53fd9a06ca61262dc7ce8df4c081b
+  subpackages:
+  - unix
+testImports: []
