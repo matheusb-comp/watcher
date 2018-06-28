@@ -8,7 +8,7 @@ export ERROR_FOLDER="/root/error"
 export SUCCESS_FOLDER="/root/success"
 
 echo "checking if atd is running..."
-systemctl is-active atd
+service atd status
 if [ "$?" -ne 0 ] ; then
   echo "Daemon atd not running! Starting..."
   service atd start
